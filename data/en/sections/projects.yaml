@@ -1,0 +1,82 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Utility
+  filter: "utility"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: IAM User Sync
+  logo: /images/sections/projects/google.png
+  role: Owner
+  timeline: "Jan 2020 - Present"
+  repo: https://github.com/danetuso/iam-user-sync
+  summary: Creates a linux group of users synced to your Google Workspace users and automatically imports their public SSH keys.
+  tags: ["professional"]
+
+- name: Discord Screenshot Uploader
+  logo: /images/sections/projects/discord.png
+  role: Owner
+  timeline: "July 2021 - Present"
+  repo: https://github.com/danetuso/discord-screenshot-uploader
+  summary: Large Image Uploading to S3 directly from the clipboard for easy sharing
+  tags: ["utility"]
+
+- name: Discord Screenshot Resizer
+  logo: /images/sections/projects/discord.png
+  role: Owner
+  timeline: "July 2021 - Present"
+  repo: https://github.com/danetuso/discord-screenshot-resizer
+  summary: Large image resizing directly from the clipboard for easy sharing
+  tags: ["utility"]
+
+- name: DigitalOcean API
+  logo: /images/sections/projects/digitalocean.png
+  role: Owner
+  timeline: "August 2016 - May 2017"
+  repo: https://github.com/danetuso/DigitalOceanAPI
+  summary: PHP Digital Ocean API for one click provisioning of droplets (Deprecated)
+  tags: ["utility", "professional"]
+
+- name: Mist of the Dark
+  logo: /images/sections/projects/visualisticstudios.png
+  role: Contributor
+  timeline: "2013 - 2017"
+  url: https://store.steampowered.com/app/884550/Mist_of_the_Dark/
+  summary: A multiplayer horror game that I contributed to the alpha release. The game was later published on Steam as unfinished and became a stale project.
+  tags: ["hobby"]
+
+- name: "The Beacon: Chapter 1"
+  logo: /images/sections/projects/visualisticstudios.png
+  role: Contributor
+  timeline: "2015 - 2016"
+  url: https://www.indiedb.com/games/the-beacon-chapter-1
+  summary: A single player horror game that I contributed to the alpha release. The game was never fully released and became a stale project.
+  tags: ["hobby"]
+
+- name: "StickRPG 1.5"
+  logo: /images/sections/projects/stickrpg.png
+  role: Owner
+  timeline: "2018"
+  repo: https://github.com/danetuso/StickRPG1.5
+  summary: Recreation and additions to one of my favorite games StickRPG by XGEN Studios as an example use case for JTwoD engine.
+  tags: ["hobby"]
+
+
+
+

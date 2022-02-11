@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Vrazo, LLC
+    url: ""
+    location: Irvine, CA
+    # company overview
+    overview: "I led our DevOps, SysAdmin, and API efforts:  \n
+    &nbsp; Deployed and maintained VPN server applications to more than 100 countries using Ansible. Additional custom tooling was created to help facilitate logging, metrics gathering, security/access, lifecycle management, etc. in mostly Python and GoLang. I architected and implemented CI/CD pipelines for client apps, server apps, and APIs."
+  positions:
+  - designation: Lead DevOps Engineer
+    start: Jan 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: June 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - "Kubernetes | Docker | Ansible | Terraform | TravisCI | CloudHSM"
+    - Managed the migration away from our MVP Kubernetes managed infrastructure to an Ansible managed production infrastructure.
+    - Designed lifecycle management systems in Ansible to stage sandbox environments separate from automatic testing and production. (including A/B user experiences)
+    - ""
+    - "AWS: EC2 | ELB | Lambda | CloudWatch | IAM | Cognito | ACM | ECR | Route53"
+    - "AWS: ElasticSearch | S3 | DynamoDB"
+    - "InfluxDB | Grafana"
+    - Implemented both server-side and client-side application log handling systems. Analytics, metrics, crashes, bug reports, alerts, etc were implemented with high availability and low cost retention.
+    - Designed and implemented database storage, DNS, IP allocation/routing, certificates, containers, load balancers, CDN, and web hosting.
+    - ""
+    - "API | Python | GoLang"
+    - Designed and implemented user feedback/crashes/bugreports workflows and created additional tools to aid in visualization and troubleshooting.
+    - Designed, implemented, and maintained APIs for user accounts, OTP, metrics/analytics, logging, testing and other internal systems.
+    - ""
+    - "Atlassian | Google Workspaces | Duo | IAM | OpsGenie"
+    - Worked with Product, Sales, Support, and Application Development teams to align timelines and goals. (including external web development teams)
+    - Managed and maintained all Atlassian tools while implementing standard workflow paradigms, for the individual needs of each team.
+    - Designed operations workflows and tooling for the abuse and support teams, on-call rotations, escalations, etc.
+    - Onboarded all new employees, managed and maintained OAuth/MFA/IAM for internal users across servers, tooling, and vendors.
+    - Managed all vendor relations, subscriptions, contracts, abuse, etc.
+
+- company:
+    name: Various Managed Service Providers
+    url: ""
+    location: Orange, Los Angeles, Riverside, and San Bernardino Counties
+    overview: In affiliation with MSP's while providing consultation for private clients. This included architecting enterprise networks, deploying complex sets of integrated software utilities, and automating internal operations. I also maintained, secured, and audited existing infrastructures, networks, and applications. These clients ranged from teams of 5 to campuses and offices with 500+ employees. I personally worked with Windows, Unix, and MacOS network environments in addition to engineering custom implementations for each client's workflow. I take pride in this experience learning from many different fast paced industries, especially my work supporting homes and programs for people getting help with substance addictions. Many of my clients were schools and churches that required the highest levels of security, privacy, and end user experience. During this time, I secured, automated, and supported 100+ companies and their networks. I still help a few clients with specific tasks or projects when they reach out from time to time.
+  positions:
+  - designation: Network Security Consultant
+    start: Sept 2017
+    end: May 2019
+
+- company:
+    name: Startup in Stealth
+    url: ""
+    location: Irvine, CA
+    overview: Architected global elastic cloud infrastructure to dynamically spin up resources across a disparate set of cloud providers using Digital Ocean, AWS, a number of other providers, KVM virtualization, Ansible, PHP, and Python. Implemented a global monitoring and metrics system to control the dynamic allocation and deallocation of cloud resources. Team management through Atlassian tools, ensuring best workflow and deployments. Built a database and API system to allow communication across the entire infrastructure using Cloudant, SQL, and Lumen. IOS/Android software development for the UI/UX implementation of the consumer software in Swift/Objective C/Inline C/Java. Core library work to facilitate actual network and security communication services using C.
+  positions:
+  - designation: Lead Engineer
+    start: August 2016
+    end: May 2017
+
+- company:
+    name: Staminus / StackPath 
+    url: ""
+    location: Irvine, CA
+    overview: "Staminus was a global provider of cyber security through hybrid DDoS mitigation service utilizing cloud and on-premises hardware appliances. I architected and engineered several aspects of the network, maintained and added to existing appliance softwares, provided enterprise customers with support, and built custom implementations for companies such as Advania, Huawei, and Neverfail. I regularly worked with PHP, and spent a lot of time with Juniper and Cisco hardware. A lot of my experience involved making live fixes and security implementations while under high pressure.  \n
+    &nbsp; Some things I used and performed from day to day were:  \n
+    * Onboarding all enterprise customers  \n
+    * Managing a team of 2 operations support techs  \n
+    * Maintaining our proprietary security software in C/HHVM  \n
+    * Developing Traffic Monitoring application bug fixes and new features in HHVM/PHP5  \n
+    * Automating all internal processes and hardware deployments through Ansible  \n
+    * Live swings and nulls of routes as appropriate for high value customers' DDoS mitigation  \n
+    * Creating/maintaining the user/admin panel flow and features  \n
+    * Provisioning and maintaining rDNS/Proxy for customers  \n
+    * Maintaining and monitoring AC/PDU/UPS/Generators  \n
+    * Installing, configuring, and troubleshooting high end Cisco and Juniper equipment  \n
+    * Developing client and server applications using PHP/Bash/Python/Scala/Go/Inline C/VTYSH  \n
+    * Configuring BGP, tunnels, and routes for most customers and internal operations  \n
+    * Managing internal operations/IT such as printers, phones, etc. across multiple teams  \n
+
+    &nbsp; I was also the main tech for trips to One Wilshire DataCenter for maintenance and emergency fixes at our PoP there. During the acquisition process, I met with stakeholders from other companies for planning and technical discussion, commonly travelling to the MaxCDN office in LA, as well as attending/representing at trade shows and events such as NANOG.  \n
+    &nbsp; Intreppid was Staminus's child company designed for renting out unused dedicated machine space in our datacenter. The website and panel were run using WHMCS. The operations team I managed also handled tickets and support for Intreppid. I engineered backend software for automation and deployments. I also maintained and added features weekly to our in house ticketing system and staff portal. (Most technical operations were performed through the staff/admin panel, which was designed and operated in Smarty/PHP and hooked directly into the API I implemented to control the backend aspects of the network (PHP/C/Bash).  \n
+    &nbsp; Staminus has developed and currently maintains its own global patented scrubbing technology, scrubbing centers, and network backbone across the world.  \n
+    &nbsp; Staminus was acquired in 2016 for 12x revenue by StackPath, a global cyber security firm with nearly $200M in funding. After this, I worked with Atlassian tools and gained more experience working on networks designed for CDN, VPN, DNS, and application layer security."
+  positions:
+  - designation: Lead Engineer
+    start: August 2015
+    end: August 2016
+
+- company:
+    name: Visualistic Studios
+    url: ""
+    location: Huntington Beach, CA
+    overview: I founded this company while attending high school. It was personally funded. Ryan Hobbs and I grew our company from 3 to 14 developers and artists within the first year. We worked on two indie titles. Here, I gained experience in leading a team, marketing, SEO, basic content creation and UI design, 3D Modeling, and Unreal Engine 4.
+  positions:
+  - designation: Founder
+    start: 2013
+    end: May 2015
